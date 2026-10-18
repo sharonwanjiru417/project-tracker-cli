@@ -1,4 +1,4 @@
-# Project Tracker CLI
+Sharon Wanjiru-Project Tracker CLI
 
 A Python command-line tool for managing **users**, **projects** and **tasks**
 for a small team. Data is saved locally as JSON, so everything you add is still

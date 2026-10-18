@@ -87,16 +87,6 @@ Users and projects can be referred to by name (case-insensitive) or by id.
 If two users have a project with the same title, add `--user` or use the
 project id.
 
-### Example session
-
-```
-$ python main.py add-user --name Alex
-$ python main.py add-project --user Alex --title "CLI Tool" --due-date "1 Dec 2026"
-$ python main.py add-task --project "CLI Tool" --title "Implement add-task" --assign Alex
-$ python main.py complete-task --id 1
-$ python main.py list-tasks --project "CLI Tool"
-```
-
 ## Persistence
 
 All data lives in `data/data.json` (users, projects, tasks). Saves are atomic
